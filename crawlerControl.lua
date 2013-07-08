@@ -1,7 +1,7 @@
 --[[ Mining Crawler Control Software--]]
 --[[Jackknrsh7--]]
 local versionNum = "1"
-local revisionNum = "7"
+local revisionNum = "8"
 
 --[[ Parameter Vars --]]
 
@@ -75,7 +75,7 @@ while true do
   else
     term.clear()
     term.setCursorPos(1,1)
-    term.write("Crawler Control Version " ..versionNum ", Revision " ..revisionNum ..".")
+    term.write("Crawler Control Version " ..versionNum ..", Revision " ..revisionNum ..".")
     term.setCursorPos(1,2)
     term.write("System currently disabled.")
   end
